@@ -1,0 +1,55 @@
+<!DOTYPE html>
+<html lang="en">
+<head>
+<title>Registrasi</title>
+</head>
+<body>
+<p>
+   <a href="login.html">Login</a> 
+   <a href="registrasi.html">Registrasi</a> 
+   <a href="contact.html">Contact</a> 
+   </p>
+    <form action="contact.php" method="POST">
+    <fieldset>
+    <legend>registrasi</legend>
+    <p>
+    <label>nama:</label>
+    <input type="text" name="nama" placeholder="nama lengkap.."/>
+    </p>
+    <p>
+    <label>username:</label>
+    <input type="text" name="username" placeholder="username.."/>
+    </p>
+    <p>
+    <label>email:</label>
+    <input type="email" name="email" placeholder="email.."/>
+    </p>
+    <p>
+    <label>password</label>
+    <input type="password" name="password" placeholder="password.."/>
+    </p>
+    <p>
+    <label>Jenis kelamin:</label>
+    <label><input type="radio" name="jenis_kelamin" value="laki-laki"/>laki-laki</label>
+    <label><input type="radio" name="jenis_kelamin" value="perempuan"/>perempuan</label>
+    </p>
+    <p>
+    <label>agama:</label>
+    <select name="agama">
+    <option value="islam">islam</option>
+    <option value="kristen">kristen</option>
+    <option value="hibdu">hindu</option>
+    <option value="buddha">buddha</option>
+    </select>
+    </p>
+    <p>
+    <label>biografi:</label>
+    <textarea name="biografi"></textarea>
+    </p>
+    <p>
+    <input type="submit" name="submit" value="daftar"/>
+    </p>
+    </fieldset>
+    </form>
+</body>
+</html>
